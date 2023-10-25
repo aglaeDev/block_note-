@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.note-editor {
+  width: 60%;
+  padding: 20px;
+}
+
+.note-form {
+  width: 100%;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
